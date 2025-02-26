@@ -36,5 +36,65 @@
     },
     "publishConfig": {
         "access": "public"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "INSTAGRAM_DRY_RUN": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Instagram dry run mode"
+            },
+            "INSTAGRAM_USERNAME": {
+                "type": "string",
+                "minLength": 1,
+                "description": "An Instagram Username must be at least 1 character long and can only contain letters, numbers, periods, and underscores"
+            },
+            "INSTAGRAM_PASSWORD": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Instagram password is required"
+            },
+            "INSTAGRAM_APP_ID": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Instagram App ID is required"
+            },
+            "INSTAGRAM_APP_SECRET": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Instagram App Secret is required"
+            },
+            "INSTAGRAM_BUSINESS_ACCOUNT_ID": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Optional Business Account ID for additional features"
+            },
+            "INSTAGRAM_POST_INTERVAL_MIN": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Minimum post interval in minutes"
+            },
+            "INSTAGRAM_POST_INTERVAL_MAX": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Maximum post interval in minutes"
+            },
+            "INSTAGRAM_ENABLE_ACTION_PROCESSING": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Enable action processing"
+            },
+            "INSTAGRAM_ACTION_INTERVAL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Action interval in minutes"
+            },
+            "INSTAGRAM_MAX_ACTIONS": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Maximum number of actions"
+            }
+        }
     }
 }
